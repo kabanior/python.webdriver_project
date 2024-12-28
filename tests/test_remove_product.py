@@ -18,7 +18,7 @@ def test_checkout(driver):
     cart_page.remove_product("sauce-labs-backpack")
     try:
         driver.find_element(By.XPATH, "//div[@data-test='inventory-item']")
-        assert False, "Element exist, test failed"
+        assert False, "Test failed: element exist"
     except NoSuchElementException:
         assert True
         print("Test passed: Element do not exist")
