@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d54b46-4a52-40ad-bf2e-40e39b7080c5" name="Changes" comment="project_1.0">
-      <change afterPath="$PROJECT_DIR$/pages/checkout_step_one_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_step_two_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_finish_order.py" afterDir="false" />
+    <list default="true" id="81d54b46-4a52-40ad-bf2e-40e39b7080c5" name="Changes" comment="project_1.1 - added some pages and tests">
+      <change afterPath="$PROJECT_DIR$/tests/test_failed_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_logout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkout_step_one_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout_step_one_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkout_step_two_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout_step_two_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_checkout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_remove_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_remove_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_finish_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_finish_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kabanior/python.webdriver_project.git&quot;,
-    &quot;accountId&quot;: &quot;392dde98-be8b-4f98-9f9d-51725874e86d&quot;
+    &quot;accountId&quot;: &quot;d59e979c-de0b-4f1f-9825-c9a55b933822&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -56,19 +58,24 @@
     "Python tests.Python tests for test_add_to_cart.test_add_to_cart.executor": "Run",
     "Python tests.Python tests for test_add_to_cart2.test_add_to_cart.executor": "Run",
     "Python tests.Python tests for test_checkout.test_checkout.executor": "Run",
+    "Python tests.Python tests for test_failed_login.test_failed_login.executor": "Run",
     "Python tests.Python tests for test_finish_order.test_checkout.executor": "Run",
     "Python tests.Python tests for test_login.test_successful_login.executor": "Run",
+    "Python tests.Python tests for test_logout.test_logout.executor": "Run",
     "Python tests.Python tests for test_remove_product.test_checkout.executor": "Run",
     "Python tests.Python tests in test_add_to_cart.py.executor": "Run",
     "Python tests.Python tests in test_add_to_cart2.py.executor": "Run",
     "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_logout.py.executor": "Run",
+    "Python tests.Python tests in test_remove_product.py.executor": "Run",
     "Python tests.Python tests in tests.executor": "Run",
     "Python.login_page.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/48794/Desktop/project/tests"
+    "last_opened_file_path": "C:/Users/48794/Desktop/project/tests",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -79,8 +86,8 @@
       <recent name="C:\Users\48794\Desktop\project\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in tests">
-    <configuration name="Python tests for test_checkout.test_checkout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_failed_login.test_failed_login">
+    <configuration name="Python tests for test_failed_login.test_failed_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,11 +98,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_checkout.test_checkout&quot;" />
+      <option name="_new_target" value="&quot;test_failed_login.test_failed_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_finish_order.test_checkout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_logout.test_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +113,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_finish_order.test_checkout&quot;" />
+      <option name="_new_target" value="&quot;test_logout.test_logout&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_remove_product.test_checkout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_logout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,11 +128,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_remove_product.test_checkout&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_logout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_add_to_cart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_remove_product.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_add_to_cart.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_remove_product.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -157,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_failed_login.test_failed_login" />
+        <item itemvalue="Python tests.Python tests for test_logout.test_logout" />
+        <item itemvalue="Python tests.Python tests in test_logout.py" />
+        <item itemvalue="Python tests.Python tests in test_remove_product.py" />
         <item itemvalue="Python tests.Python tests in tests" />
-        <item itemvalue="Python tests.Python tests for test_finish_order.test_checkout" />
-        <item itemvalue="Python tests.Python tests for test_checkout.test_checkout" />
-        <item itemvalue="Python tests.Python tests in test_add_to_cart.py" />
-        <item itemvalue="Python tests.Python tests for test_remove_product.test_checkout" />
       </list>
     </recent_temporary>
   </component>
@@ -197,11 +204,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735160557505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project_1.1 - added some pages and tests">
+      <option name="closed" value="true" />
+      <created>1735410356152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735410356152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project_1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="project_1.0" />
+    <MESSAGE value="project_1.1 - added some pages and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="project_1.1 - added some pages and tests" />
   </component>
 </project>

@@ -1,8 +1,8 @@
 from pages.cart_page import CartPage
-from pages.checkout_step_one_page import CheckOutStepOne
+from pages.checkout_step_one_page import CheckOutStepOnePage
 from pages.inventory_page import InventoryPage
 from pages.login_page import LoginPage
-from pages.checkout_step_two_page import CheckOutStepTwo
+from pages.checkout_step_two_page import CheckOutStepTwoPage
 
 
 def test_checkout(driver):
@@ -17,10 +17,10 @@ def test_checkout(driver):
     cart_page.go_to_checkout()
     assert driver.current_url == "https://www.saucedemo.com/checkout-step-one.html"
 
-    checkout_page = CheckOutStepOne(driver)
+    checkout_page = CheckOutStepOnePage(driver)
     checkout_page.enter_checkout_info("Polska mistrzem", "Polski", "1906")
     assert driver.current_url == "https://www.saucedemo.com/checkout-step-two.html"
 
-    finish_order = CheckOutStepTwo(driver)
+    finish_order = CheckOutStepTwoPage(driver)
     finish_order.finish_button_click()
     assert driver.current_url == "https://www.saucedemo.com/checkout-complete.html"

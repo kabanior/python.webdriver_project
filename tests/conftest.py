@@ -13,4 +13,4 @@ def driver():
     driver_instance.get('https://www.saucedemo.com/')
     driver_instance.implicitly_wait(2)
     yield driver_instance
-    # driver_instance.quit()
+    driver_instance.quit()
